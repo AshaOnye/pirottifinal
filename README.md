@@ -1,1 +1,1 @@
-# pirottifinal
+Pirotti is an Architecture company website built using PHP, JavaScript, and Laravel. This project showcases a modern, responsive design tailored for architecture firms, featuring dynamic content management, interactive elements, and seamless user experience. Ideal for presenting portfolios, services, and client projects.# pirottifinal
