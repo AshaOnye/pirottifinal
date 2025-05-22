@@ -3,12 +3,12 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::get('/about', function () {
-    return view('about');
-}) ->name('about');
+    return view('team');
+}) ->name('team');
 
 Route::get('/projects', function () {
     return view('projects');
@@ -33,3 +33,11 @@ Route::get('/emporio', function () {
 Route::get('/villa8', function () {
     return view('villa8');
 }) ->name('villa8');
+
+Route::get('/appointment', function () {
+    return view('appointment');
+}) ->name('appointment');
+
+Route::get('/corporate', function () {
+    return view('corporate');
+}) ->name('corporate');
